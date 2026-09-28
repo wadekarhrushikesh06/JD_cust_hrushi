@@ -1,0 +1,20 @@
+# Set default behaviour to automatically normalize line endings
+* text=auto
+
+# Explicit text files with LF line endings
+*.py text eol=lf
+*.yaml text eol=lf
+*.yml text eol=lf
+*.md text eol=lf
+*.csv text eol=lf
+*.txt text eol=lf
+.gitignore text eol=lf
+.gitattributes text eol=lf
+
+# Binary files
+*.pdf binary
+*.docx binary
+*.doc binary
+*.png binary
+*.jpg binary
+*.jpeg binary

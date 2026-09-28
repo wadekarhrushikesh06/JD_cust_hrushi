@@ -1,0 +1,45 @@
+name: Validate Source of Truth & Scripts
+
+on:
+  push:
+    branches: [ main, master ]
+  pull_request:
+    branches: [ main, master ]
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Install Dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install pypdf pyyaml python-docx
+
+      - name: Syntax Check Python Scripts
+        run: |
+          python -m py_compile scripts/render_resume.py
+          python -m py_compile scripts/validate_resume.py
+          python -m py_compile scripts/index_tracker.py
+
+      - name: Validate Source of Truth YAMLs
+        run: |
+          python -c "
+          import yaml, glob
+          for yf in glob.glob('source_of_truth/*.yaml'):
+              with open(yf, 'r', encoding='utf-8') as f:
+                  yaml.safe_load(f)
+              print(f'Valid YAML: {yf}')
+          "
+
+      - name: Validate Base Templates
+        run: |
+          python scripts/validate_resume.py templates/data_engineer.docx
+          python scripts/validate_resume.py templates/oracle_dba.docx

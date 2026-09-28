@@ -1,0 +1,371 @@
+# Skills Inventory - Categorized with Evidence
+# Only skills explicitly evidenced in the source resumes are listed here.
+
+skills:
+  # Big Data & Processing
+  - name: "Apache Spark"
+    category: "Big Data & Processing"
+    evidence: ["de_exp_3", "de_skills_section"]
+    resumes: ["data_engineer"]
+  - name: "PySpark"
+    category: "Big Data & Processing"
+    evidence: ["de_exp_3", "de_exp_4", "de_proj_bullet_2", "de_summary", "de_skills_section"]
+    resumes: ["data_engineer"]
+  - name: "Spark SQL"
+    category: "Big Data & Processing"
+    evidence: ["de_skills_section"]
+    resumes: ["data_engineer"]
+  - name: "Broadcast Joins"
+    category: "Big Data & Processing"
+    evidence: ["de_exp_3", "de_skills_section"]
+    resumes: ["data_engineer"]
+  - name: "Partitioning"
+    category: "Big Data & Processing"
+    evidence: ["de_exp_3", "de_skills_section"]
+    resumes: ["data_engineer"]
+  - name: "Shuffle Optimization"
+    category: "Big Data & Processing"
+    evidence: ["de_exp_3", "de_skills_section"]
+    resumes: ["data_engineer"]
+  - name: "OOM Debugging"
+    category: "Big Data & Processing"
+    evidence: ["de_exp_3", "de_summary", "de_skills_section"]
+    resumes: ["data_engineer"]
+
+  # Workflow Orchestration
+  - name: "Apache Airflow"
+    category: "Workflow Orchestration"
+    evidence: ["de_exp_2", "de_summary", "de_skills_section"]
+    resumes: ["data_engineer"]
+  - name: "DAG Design"
+    category: "Workflow Orchestration"
+    evidence: ["de_exp_2", "de_skills_section"]
+    resumes: ["data_engineer"]
+  - name: "Scheduling"
+    category: "Workflow Orchestration"
+    evidence: ["de_exp_2", "de_skills_section"]
+    resumes: ["data_engineer"]
+  - name: "Task Dependencies"
+    category: "Workflow Orchestration"
+    evidence: ["de_exp_2", "de_skills_section"]
+    resumes: ["data_engineer"]
+  - name: "Failure Alerting"
+    category: "Workflow Orchestration"
+    evidence: ["de_exp_2", "de_skills_section"]
+    resumes: ["data_engineer"]
+  - name: "SLA Monitoring"
+    category: "Workflow Orchestration"
+    evidence: ["de_exp_2", "de_skills_section", "dba_exp_14"]
+    resumes: ["data_engineer", "oracle_dba"]
+
+  # Cloud & Warehouses
+  - name: "Snowflake"
+    category: "Cloud & Warehouses"
+    evidence: ["de_cert_1", "de_proj_bullet_3", "de_skills_section"]
+    resumes: ["data_engineer"]
+  - name: "Virtual Warehouses"
+    category: "Cloud & Warehouses"
+    evidence: ["de_skills_section"]
+    resumes: ["data_engineer"]
+  - name: "Data Modeling"
+    category: "Cloud & Warehouses"
+    evidence: ["de_proj_bullet_3", "de_summary", "de_skills_section"]
+    resumes: ["data_engineer"]
+  - name: "SnowSQL"
+    category: "Cloud & Warehouses"
+    evidence: ["de_skills_section"]
+    resumes: ["data_engineer"]
+  - name: "AWS"
+    category: "Cloud & Warehouses"
+    evidence: ["de_cert_2", "de_skills_section"]
+    resumes: ["data_engineer"]
+  - name: "AWS S3"
+    category: "Cloud & Warehouses"
+    evidence: ["de_proj_bullet_2", "de_skills_section"]
+    resumes: ["data_engineer"]
+  - name: "Cloud Fundamentals"
+    category: "Cloud & Warehouses"
+    evidence: ["de_skills_section", "de_cert_2"]
+    resumes: ["data_engineer"]
+  - name: "Databricks"
+    category: "Cloud & Warehouses"
+    evidence: ["de_cert_3", "de_skills_section"]
+    resumes: ["data_engineer"]
+
+  # Databases & Querying / Administration
+  - name: "Oracle Database"
+    category: "Databases & Querying"
+    evidence: ["de_exp_1", "de_exp_5", "de_skills_section"]
+    resumes: ["data_engineer"]
+  - name: "Oracle Database 19c"
+    category: "Databases & Querying"
+    evidence: ["dba_summary", "dba_exp_2", "dba_skills_section"]
+    resumes: ["oracle_dba"]
+  - name: "Oracle Database 23ai"
+    category: "Databases & Querying"
+    evidence: ["dba_summary", "dba_exp_2", "dba_skills_section"]
+    resumes: ["oracle_dba"]
+  - name: "Complex Queries"
+    category: "Databases & Querying"
+    evidence: ["de_exp_5", "de_skills_section"]
+    resumes: ["data_engineer"]
+  - name: "Joins"
+    category: "Databases & Querying"
+    evidence: ["de_skills_section"]
+    resumes: ["data_engineer"]
+  - name: "CTEs"
+    category: "Databases & Querying"
+    evidence: ["de_skills_section"]
+    resumes: ["data_engineer"]
+  - name: "Window Functions"
+    category: "Databases & Querying"
+    evidence: ["de_skills_section"]
+    resumes: ["data_engineer"]
+  - name: "PL/SQL"
+    category: "Databases & Querying"
+    evidence: ["de_skills_section", "dba_skills_section", "dba_exp_13"]
+    resumes: ["data_engineer", "oracle_dba"]
+  - name: "Performance Tuning"
+    category: "Databases & Querying"
+    evidence: ["de_exp_3", "de_exp_5", "dba_summary", "dba_exp_11", "dba_skills_section"]
+    resumes: ["data_engineer", "oracle_dba"]
+
+  # Data Modeling & Design
+  - name: "Dimensional Modeling"
+    category: "Data Modeling & Design"
+    evidence: ["de_summary", "de_proj_bullet_3", "de_skills_section"]
+    resumes: ["data_engineer"]
+  - name: "Kimball Star Schema"
+    category: "Data Modeling & Design"
+    evidence: ["de_summary", "de_proj_bullet_3", "de_skills_section"]
+    resumes: ["data_engineer"]
+  - name: "Snowflake Schema"
+    category: "Data Modeling & Design"
+    evidence: ["de_skills_section"]
+    resumes: ["data_engineer"]
+  - name: "Fact & Dimension Tables"
+    category: "Data Modeling & Design"
+    evidence: ["de_proj_bullet_3", "de_skills_section"]
+    resumes: ["data_engineer"]
+  - name: "SCD Type 1 & 2"
+    category: "Data Modeling & Design"
+    evidence: ["de_proj_bullet_3", "de_skills_section"]
+    resumes: ["data_engineer"]
+
+  # Languages & Scripting
+  - name: "Python"
+    category: "Languages & Scripting"
+    evidence: ["de_proj_bullet_1", "de_skills_section"]
+    resumes: ["data_engineer"]
+  - name: "ETL Scripting"
+    category: "Languages & Scripting"
+    evidence: ["de_exp_1", "de_proj_bullet_1", "de_skills_section"]
+    resumes: ["data_engineer"]
+  - name: "Data Structures"
+    category: "Languages & Scripting"
+    evidence: ["de_skills_section"]
+    resumes: ["data_engineer"]
+  - name: "SQL"
+    category: "Languages & Scripting"
+    evidence: ["de_summary", "de_exp_4", "de_exp_5", "de_skills_section", "dba_skills_section"]
+    resumes: ["data_engineer", "oracle_dba"]
+  - name: "Advanced Transformations"
+    category: "Languages & Scripting"
+    evidence: ["de_exp_5", "de_proj_bullet_2", "de_skills_section"]
+    resumes: ["data_engineer"]
+  - name: "Bash / Shell Scripting"
+    category: "Languages & Scripting"
+    evidence: ["de_skills_section", "dba_exp_13", "dba_skills_section"]
+    resumes: ["data_engineer", "oracle_dba"]
+
+  # Data Quality & Governance
+  - name: "Pre/Post-load Financial Reconciliation"
+    category: "Data Quality & Governance"
+    evidence: ["de_exp_4", "de_summary", "de_skills_section"]
+    resumes: ["data_engineer"]
+  - name: "Data Validation Checks"
+    category: "Data Quality & Governance"
+    evidence: ["de_proj_bullet_2", "de_proj_bullet_4", "de_skills_section"]
+    resumes: ["data_engineer"]
+  - name: "Schema Consistency"
+    category: "Data Quality & Governance"
+    evidence: ["de_proj_bullet_2", "de_skills_section"]
+    resumes: ["data_engineer"]
+  - name: "Audit Compliance"
+    category: "Data Quality & Governance"
+    evidence: ["de_exp_4", "de_skills_section"]
+    resumes: ["data_engineer"]
+
+  # Grid & High Availability (DBA)
+  - name: "Oracle Grid Infrastructure"
+    category: "Grid & High Availability"
+    evidence: ["dba_summary", "dba_exp_1", "dba_skills_section"]
+    resumes: ["oracle_dba"]
+  - name: "Oracle RAC"
+    category: "Grid & High Availability"
+    evidence: ["dba_summary", "dba_exp_1", "dba_exp_4", "dba_skills_section"]
+    resumes: ["oracle_dba"]
+  - name: "ASM"
+    category: "Grid & High Availability"
+    evidence: ["dba_summary", "dba_exp_3", "dba_skills_section"]
+    resumes: ["oracle_dba"]
+  - name: "Oracle Data Guard"
+    category: "Grid & High Availability"
+    evidence: ["dba_summary", "dba_exp_5", "dba_skills_section"]
+    resumes: ["oracle_dba"]
+  - name: "Standby Databases"
+    category: "Grid & High Availability"
+    evidence: ["dba_exp_5"]
+    resumes: ["oracle_dba"]
+  - name: "Switchover and DR Drill"
+    category: "Grid & High Availability"
+    evidence: ["dba_exp_5"]
+    resumes: ["oracle_dba"]
+
+  # Oracle GoldenGate (DBA)
+  - name: "Oracle GoldenGate 23ai"
+    category: "Oracle GoldenGate"
+    evidence: ["dba_summary", "dba_exp_6", "dba_skills_section"]
+    resumes: ["oracle_dba"]
+  - name: "Microservices Architecture"
+    category: "Oracle GoldenGate"
+    evidence: ["dba_summary", "dba_exp_6", "dba_skills_section"]
+    resumes: ["oracle_dba"]
+  - name: "Service Manager"
+    category: "Oracle GoldenGate"
+    evidence: ["dba_skills_section"]
+    resumes: ["oracle_dba"]
+  - name: "GGSCI"
+    category: "Oracle GoldenGate"
+    evidence: ["dba_skills_section"]
+    resumes: ["oracle_dba"]
+  - name: "Admin Client"
+    category: "Oracle GoldenGate"
+    evidence: ["dba_skills_section"]
+    resumes: ["oracle_dba"]
+  - name: "Extract"
+    category: "Oracle GoldenGate"
+    evidence: ["dba_exp_7", "dba_skills_section"]
+    resumes: ["oracle_dba"]
+  - name: "Data Pump"
+    category: "Oracle GoldenGate"
+    evidence: ["dba_exp_7", "dba_skills_section"]
+    resumes: ["oracle_dba"]
+  - name: "Replicat"
+    category: "Oracle GoldenGate"
+    evidence: ["dba_exp_7", "dba_skills_section"]
+    resumes: ["oracle_dba"]
+  - name: "Trail Files"
+    category: "Oracle GoldenGate"
+    evidence: ["dba_exp_8", "dba_skills_section"]
+    resumes: ["oracle_dba"]
+  - name: "Checkpoint Tables"
+    category: "Oracle GoldenGate"
+    evidence: ["dba_exp_8", "dba_skills_section"]
+    resumes: ["oracle_dba"]
+  - name: "Distribution Paths"
+    category: "Oracle GoldenGate"
+    evidence: ["dba_exp_7", "dba_skills_section"]
+    resumes: ["oracle_dba"]
+  - name: "Receiver Paths"
+    category: "Oracle GoldenGate"
+    evidence: ["dba_exp_7", "dba_skills_section"]
+    resumes: ["oracle_dba"]
+  - name: "Integrated Extract & Replicat"
+    category: "Oracle GoldenGate"
+    evidence: ["dba_skills_section"]
+    resumes: ["oracle_dba"]
+  - name: "Replication Monitoring & Troubleshooting"
+    category: "Oracle GoldenGate"
+    evidence: ["dba_exp_8", "dba_skills_section"]
+    resumes: ["oracle_dba"]
+
+  # Backup & Recovery (DBA)
+  - name: "RMAN"
+    category: "Backup & Recovery"
+    evidence: ["dba_summary", "dba_exp_9", "dba_skills_section"]
+    resumes: ["oracle_dba"]
+  - name: "Flashback Database"
+    category: "Backup & Recovery"
+    evidence: ["dba_skills_section"]
+    resumes: ["oracle_dba"]
+  - name: "Restore & Recovery"
+    category: "Backup & Recovery"
+    evidence: ["dba_exp_9", "dba_skills_section"]
+    resumes: ["oracle_dba"]
+  - name: "Database Cloning"
+    category: "Backup & Recovery"
+    evidence: ["dba_exp_9", "dba_skills_section"]
+    resumes: ["oracle_dba"]
+  - name: "Archive Log Management"
+    category: "Backup & Recovery"
+    evidence: ["dba_exp_9", "dba_exp_12"]
+    resumes: ["oracle_dba"]
+
+  # Performance Tuning (DBA)
+  - name: "AWR"
+    category: "Performance Tuning"
+    evidence: ["dba_exp_11", "dba_skills_section"]
+    resumes: ["oracle_dba"]
+  - name: "ASH"
+    category: "Performance Tuning"
+    evidence: ["dba_exp_11", "dba_skills_section"]
+    resumes: ["oracle_dba"]
+  - name: "ADDM"
+    category: "Performance Tuning"
+    evidence: ["dba_exp_11", "dba_skills_section"]
+    resumes: ["oracle_dba"]
+  - name: "SQL Tuning"
+    category: "Performance Tuning"
+    evidence: ["dba_skills_section", "dba_exp_12"]
+    resumes: ["oracle_dba"]
+  - name: "SGA/PGA Tuning"
+    category: "Performance Tuning"
+    evidence: ["dba_skills_section"]
+    resumes: ["oracle_dba"]
+  - name: "Wait Event Analysis"
+    category: "Performance Tuning"
+    evidence: ["dba_skills_section"]
+    resumes: ["oracle_dba"]
+  - name: "OPatch / OPatchAuto"
+    category: "Patching & Maintenance"
+    evidence: ["dba_exp_4"]
+    resumes: ["oracle_dba"]
+
+  # Database Security (DBA)
+  - name: "Transparent Data Encryption (TDE)"
+    category: "Security"
+    evidence: ["dba_summary", "dba_exp_10", "dba_skills_section"]
+    resumes: ["oracle_dba"]
+  - name: "Users, Roles, Profiles"
+    category: "Security"
+    evidence: ["dba_skills_section"]
+    resumes: ["oracle_dba"]
+  - name: "Auditing"
+    category: "Security"
+    evidence: ["dba_skills_section"]
+    resumes: ["oracle_dba"]
+
+  # Networking (DBA)
+  - name: "Oracle Net"
+    category: "Networking"
+    evidence: ["dba_skills_section"]
+    resumes: ["oracle_dba"]
+  - name: "Listener / TNS"
+    category: "Networking"
+    evidence: ["dba_exp_12", "dba_skills_section"]
+    resumes: ["oracle_dba"]
+  - name: "SCAN Listener"
+    category: "Networking"
+    evidence: ["dba_skills_section"]
+    resumes: ["oracle_dba"]
+
+  # Tools & Operating Systems
+  - name: "Linux / RHEL Linux"
+    category: "Operating System"
+    evidence: ["de_skills_section", "dba_exp_2", "dba_skills_section"]
+    resumes: ["data_engineer", "oracle_dba"]
+  - name: "Production Support (24x7)"
+    category: "Support & Operations"
+    evidence: ["dba_summary", "dba_exp_14"]
+    resumes: ["oracle_dba"]

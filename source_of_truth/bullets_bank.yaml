@@ -1,0 +1,340 @@
+# Bullets Bank - Verbatim bullets from source resumes
+# Non-negotiable rule: Numbers and metrics are read-only and locked: true.
+
+bullets:
+  # Data Engineer Bullets - Work Experience (TCS / Client: SBI)
+  - id: "de_exp_1"
+    section: "work_experience"
+    role: "Data Engineer"
+    company: "Tata Consultancy Services (Client: State Bank of India)"
+    project: "Vendors Payment & Settlement System (VPS)"
+    resume_type: "data_engineer"
+    lead_in: "High-Throughput Batch Ingestion"
+    text: "Architected and maintained end-to-end batch ETL pipelines ingesting 4.45M+ transaction hits across 12-hour daily settlement cycles from core banking Oracle staging environments into analytics datamarts."
+    full_bullet: "High-Throughput Batch Ingestion: Architected and maintained end-to-end batch ETL pipelines ingesting 4.45M+ transaction hits across 12-hour daily settlement cycles from core banking Oracle staging environments into analytics datamarts."
+    tags: ["ETL", "batch", "ingestion", "oracle", "datamarts", "banking", "high-throughput"]
+    skills: ["ETL/ELT", "Oracle Database", "Batch Ingestion", "Data Pipelines"]
+    domain: "ETL / Data Engineering"
+    locked_numbers:
+      - value: "4.45M+"
+        locked: true
+      - value: "12-hour"
+        locked: true
+
+  - id: "de_exp_2"
+    section: "work_experience"
+    role: "Data Engineer"
+    company: "Tata Consultancy Services (Client: State Bank of India)"
+    project: "Vendors Payment & Settlement System (VPS)"
+    resume_type: "data_engineer"
+    lead_in: "Airflow Orchestration & SLA Adherence"
+    text: "Scheduled and monitored 20+ production Apache Airflow DAGs, implementing robust task dependencies and automated alerting mechanisms that sustained a 99.8% workflow success rate."
+    full_bullet: "Airflow Orchestration & SLA Adherence: Scheduled and monitored 20+ production Apache Airflow DAGs, implementing robust task dependencies and automated alerting mechanisms that sustained a 99.8% workflow success rate."
+    tags: ["airflow", "orchestration", "dag", "sla", "alerting", "monitoring"]
+    skills: ["Apache Airflow", "DAG Design", "Scheduling", "Task Dependencies", "Failure Alerting", "SLA Monitoring"]
+    domain: "Workflow Orchestration"
+    locked_numbers:
+      - value: "20+"
+        locked: true
+      - value: "99.8%"
+        locked: true
+
+  - id: "de_exp_3"
+    section: "work_experience"
+    role: "Data Engineer"
+    company: "Tata Consultancy Services (Client: State Bank of India)"
+    project: "Vendors Payment & Settlement System (VPS)"
+    resume_type: "data_engineer"
+    lead_in: "Spark Performance Tuning & RCA"
+    text: "Diagnosed and eliminated recurring PySpark Out-of-Memory (OOM) exceptions and data skew by implementing broadcast joins, optimal repartitioning, and shuffle partition tuning, cutting pipeline downtime by 30%."
+    full_bullet: "Spark Performance Tuning & RCA: Diagnosed and eliminated recurring PySpark Out-of-Memory (OOM) exceptions and data skew by implementing broadcast joins, optimal repartitioning, and shuffle partition tuning, cutting pipeline downtime by 30%."
+    tags: ["spark", "pyspark", "performance-tuning", "rca", "optimization", "oom", "data-skew", "broadcast-joins", "repartitioning", "shuffle-tuning"]
+    skills: ["Apache Spark", "PySpark", "Spark SQL", "Broadcast Joins", "Partitioning", "Shuffle Optimization", "OOM Debugging"]
+    domain: "Big Data & Processing"
+    locked_numbers:
+      - value: "30%"
+        locked: true
+
+  - id: "de_exp_4"
+    section: "work_experience"
+    role: "Data Engineer"
+    company: "Tata Consultancy Services (Client: State Bank of India)"
+    project: "Vendors Payment & Settlement System (VPS)"
+    resume_type: "data_engineer"
+    lead_in: "Financial Ledger Reconciliation"
+    text: "Engineered automated pre-load and post-load reconciliation scripts in SQL and PySpark to cross-verify debit/credit ledger balances and transaction counts, driving a 25% improvement in data accuracy for audit compliance."
+    full_bullet: "Financial Ledger Reconciliation: Engineered automated pre-load and post-load reconciliation scripts in SQL and PySpark to cross-verify debit/credit ledger balances and transaction counts, driving a 25% improvement in data accuracy for audit compliance."
+    tags: ["reconciliation", "data-quality", "sql", "pyspark", "compliance", "audit", "financial-ledger"]
+    skills: ["Pre/Post-load Financial Reconciliation", "SQL", "PySpark", "Data Validation Checks", "Audit Compliance"]
+    domain: "Data Quality & Governance"
+    locked_numbers:
+      - value: "25%"
+        locked: true
+
+  - id: "de_exp_5"
+    section: "work_experience"
+    role: "Data Engineer"
+    company: "Tata Consultancy Services (Client: State Bank of India)"
+    project: "Vendors Payment & Settlement System (VPS)"
+    resume_type: "data_engineer"
+    lead_in: "Database & Query Optimization"
+    text: "Refactored complex SQL transformations, indexing, and batch loading procedures in Oracle DB, slashing batch execution runtimes by 20% and improving reporting throughput."
+    full_bullet: "Database & Query Optimization: Refactored complex SQL transformations, indexing, and batch loading procedures in Oracle DB, slashing batch execution runtimes by 20% and improving reporting throughput."
+    tags: ["oracle", "sql", "indexing", "query-optimization", "performance", "batch-loading"]
+    skills: ["Oracle Database", "Complex Queries", "Joins", "CTEs", "Window Functions", "PL/SQL", "Performance Tuning"]
+    domain: "Databases & Querying"
+    locked_numbers:
+      - value: "20%"
+        locked: true
+
+  # Data Engineer Bullets - Technical Projects
+  - id: "de_proj_bullet_1"
+    section: "technical_projects"
+    project_id: "de_proj_1"
+    project_name: "Automated REST API Batch Ingestion & Dimensional Warehouse Pipeline"
+    resume_type: "data_engineer"
+    lead_in: ""
+    text: "Built a modular batch ingestion framework in Python fetching semi-structured JSON payloads from multi-endpoint REST APIs with automated pagination, token handling, and robust retry mechanisms."
+    full_bullet: "Built a modular batch ingestion framework in Python fetching semi-structured JSON payloads from multi-endpoint REST APIs with automated pagination, token handling, and robust retry mechanisms."
+    tags: ["python", "api", "json", "batch-ingestion", "pagination", "retry-mechanism"]
+    skills: ["Python", "REST APIs", "JSON", "Batch Ingestion"]
+    domain: "Ingestion & APIs"
+    locked_numbers: []
+
+  - id: "de_proj_bullet_2"
+    section: "technical_projects"
+    project_id: "de_proj_1"
+    project_name: "Automated REST API Batch Ingestion & Dimensional Warehouse Pipeline"
+    resume_type: "data_engineer"
+    lead_in: ""
+    text: "Executed scalable distributed transformations using PySpark to clean, flatten nested JSON schemas, and enforce schema validation rules prior to staging on AWS S3."
+    full_bullet: "Executed scalable distributed transformations using PySpark to clean, flatten nested JSON schemas, and enforce schema validation rules prior to staging on AWS S3."
+    tags: ["pyspark", "transformations", "aws-s3", "json", "schema-validation", "staging"]
+    skills: ["PySpark", "AWS S3", "JSON", "Schema Consistency", "Data Validation Checks"]
+    domain: "Big Data & Processing"
+    locked_numbers: []
+
+  - id: "de_proj_bullet_3"
+    section: "technical_projects"
+    project_id: "de_proj_1"
+    project_name: "Automated REST API Batch Ingestion & Dimensional Warehouse Pipeline"
+    resume_type: "data_engineer"
+    lead_in: ""
+    text: "Designed and deployed a Kimball Star Schema data warehouse in Snowflake, structuring normalized dimension tables (SCD Type 1) and transactional fact tables for business intelligence queries."
+    full_bullet: "Designed and deployed a Kimball Star Schema data warehouse in Snowflake, structuring normalized dimension tables (SCD Type 1) and transactional fact tables for business intelligence queries."
+    tags: ["snowflake", "dimensional-modeling", "kimball", "star-schema", "scd-type-1", "fact-tables", "dimension-tables", "bi"]
+    skills: ["Snowflake", "Dimensional Modeling", "Kimball Star Schema", "Fact & Dimension Tables", "SCD Type 1 & 2"]
+    domain: "Data Modeling & Warehousing"
+    locked_numbers: []
+
+  - id: "de_proj_bullet_4"
+    section: "technical_projects"
+    project_id: "de_proj_1"
+    project_name: "Automated REST API Batch Ingestion & Dimensional Warehouse Pipeline"
+    resume_type: "data_engineer"
+    lead_in: ""
+    text: "Implemented automated data quality assertions verifying row counts, primary key uniqueness, and null constraints across analytical datasets."
+    full_bullet: "Implemented automated data quality assertions verifying row counts, primary key uniqueness, and null constraints across analytical datasets."
+    tags: ["data-quality", "validation", "assertions", "row-counts", "primary-key", "null-constraints"]
+    skills: ["Data Quality & Governance", "Data Validation Checks"]
+    domain: "Data Quality & Governance"
+    locked_numbers: []
+
+  # Oracle DBA Bullets - Work Experience (TCS / Client: SBI)
+  - id: "dba_exp_1"
+    section: "professional_experience"
+    role: "System Engineer"
+    company: "Tata Consultancy Services (TCS)"
+    client: "State Bank of India"
+    resume_type: "oracle_dba"
+    lead_in: ""
+    text: "Installed and configured Oracle Grid Infrastructure and Oracle RAC environments."
+    full_bullet: "Installed and configured Oracle Grid Infrastructure and Oracle RAC environments."
+    tags: ["grid", "rac", "high-availability", "installation", "configuration"]
+    skills: ["Oracle Grid Infrastructure", "Oracle RAC"]
+    domain: "Grid & High Availability"
+    locked_numbers: []
+
+  - id: "dba_exp_2"
+    section: "professional_experience"
+    role: "System Engineer"
+    company: "Tata Consultancy Services (TCS)"
+    client: "State Bank of India"
+    resume_type: "oracle_dba"
+    lead_in: ""
+    text: "Installed, configured and administered Oracle Database 19c/23ai on Linux."
+    full_bullet: "Installed, configured and administered Oracle Database 19c/23ai on Linux."
+    tags: ["oracle-database", "19c", "23ai", "linux", "administration", "installation"]
+    skills: ["Oracle Database 19c", "Oracle Database 23ai", "RHEL Linux"]
+    domain: "Databases & Administration"
+    locked_numbers: []
+
+  - id: "dba_exp_3"
+    section: "professional_experience"
+    role: "System Engineer"
+    company: "Tata Consultancy Services (TCS)"
+    client: "State Bank of India"
+    resume_type: "oracle_dba"
+    lead_in: ""
+    text: "Managed Oracle ASM disk groups and storage administration."
+    full_bullet: "Managed Oracle ASM disk groups and storage administration."
+    tags: ["asm", "storage", "disk-groups", "storage-administration"]
+    skills: ["ASM", "Storage Administration"]
+    domain: "Storage & ASM"
+    locked_numbers: []
+
+  - id: "dba_exp_4"
+    section: "professional_experience"
+    role: "System Engineer"
+    company: "Tata Consultancy Services (TCS)"
+    client: "State Bank of India"
+    resume_type: "oracle_dba"
+    lead_in: ""
+    text: "Performed Oracle Home patching using OPatch and OPatchAuto in standalone and RAC environments."
+    full_bullet: "Performed Oracle Home patching using OPatch and OPatchAuto in standalone and RAC environments."
+    tags: ["patching", "opatch", "opatchauto", "rac", "maintenance", "oracle-home"]
+    skills: ["OPatch", "OPatchAuto", "Patching"]
+    domain: "Patching & Maintenance"
+    locked_numbers: []
+
+  - id: "dba_exp_5"
+    section: "professional_experience"
+    role: "System Engineer"
+    company: "Tata Consultancy Services (TCS)"
+    client: "State Bank of India"
+    resume_type: "oracle_dba"
+    lead_in: ""
+    text: "Configured and administered Oracle Data Guard, standby databases, switchover and DR drill activities."
+    full_bullet: "Configured and administered Oracle Data Guard, standby databases, switchover and DR drill activities."
+    tags: ["data-guard", "standby", "disaster-recovery", "switchover", "dr-drills", "high-availability"]
+    skills: ["Oracle Data Guard", "Disaster Recovery", "Standby Databases"]
+    domain: "Disaster Recovery & High Availability"
+    locked_numbers: []
+
+  - id: "dba_exp_6"
+    section: "professional_experience"
+    role: "System Engineer"
+    company: "Tata Consultancy Services (TCS)"
+    client: "State Bank of India"
+    resume_type: "oracle_dba"
+    lead_in: ""
+    text: "Installed and administered Oracle GoldenGate 23ai (Microservices Architecture)."
+    full_bullet: "Installed and administered Oracle GoldenGate 23ai (Microservices Architecture)."
+    tags: ["goldengate", "microservices", "23ai", "replication", "installation", "administration"]
+    skills: ["Oracle GoldenGate", "Microservices"]
+    domain: "Replication & GoldenGate"
+    locked_numbers: []
+
+  - id: "dba_exp_7"
+    section: "professional_experience"
+    role: "System Engineer"
+    company: "Tata Consultancy Services (TCS)"
+    client: "State Bank of India"
+    resume_type: "oracle_dba"
+    lead_in: ""
+    text: "Configured Extract, Data Pump and Replicat processes, Distribution Paths and Receiver Paths."
+    full_bullet: "Configured Extract, Data Pump and Replicat processes, Distribution Paths and Receiver Paths."
+    tags: ["goldengate", "extract", "data-pump", "replicat", "distribution-paths", "receiver-paths"]
+    skills: ["Extract", "Data Pump", "Replicat", "Distribution Paths", "Receiver Paths"]
+    domain: "Replication & GoldenGate"
+    locked_numbers: []
+
+  - id: "dba_exp_8"
+    section: "professional_experience"
+    role: "System Engineer"
+    company: "Tata Consultancy Services (TCS)"
+    client: "State Bank of India"
+    resume_type: "oracle_dba"
+    lead_in: ""
+    text: "Monitored replication lag, trail files, checkpoint tables and resolved GoldenGate process failures."
+    full_bullet: "Monitored replication lag, trail files, checkpoint tables and resolved GoldenGate process failures."
+    tags: ["goldengate", "replication-lag", "trail-files", "checkpoint-tables", "troubleshooting", "monitoring"]
+    skills: ["Trail Files", "Checkpoint Tables", "Replication Monitoring & Troubleshooting"]
+    domain: "Replication & GoldenGate"
+    locked_numbers: []
+
+  - id: "dba_exp_9"
+    section: "professional_experience"
+    role: "System Engineer"
+    company: "Tata Consultancy Services (TCS)"
+    client: "State Bank of India"
+    resume_type: "oracle_dba"
+    lead_in: ""
+    text: "Performed RMAN full/incremental backups, restore, recovery, cloning and archive log management."
+    full_bullet: "Performed RMAN full/incremental backups, restore, recovery, cloning and archive log management."
+    tags: ["rman", "backup", "recovery", "cloning", "archive-logs", "full-backup", "incremental-backup"]
+    skills: ["RMAN", "Flashback Database", "Restore & Recovery", "Database Cloning"]
+    domain: "Backup & Recovery"
+    locked_numbers: []
+
+  - id: "dba_exp_10"
+    section: "professional_experience"
+    role: "System Engineer"
+    company: "Tata Consultancy Services (TCS)"
+    client: "State Bank of India"
+    resume_type: "oracle_dba"
+    lead_in: ""
+    text: "Implemented Transparent Data Encryption (TDE) and managed database security."
+    full_bullet: "Implemented Transparent Data Encryption (TDE) and managed database security."
+    tags: ["security", "tde", "encryption", "database-security"]
+    skills: ["Transparent Data Encryption (TDE)", "Users", "Roles", "Profiles", "Auditing"]
+    domain: "Database Security"
+    locked_numbers: []
+
+  - id: "dba_exp_11"
+    section: "professional_experience"
+    role: "System Engineer"
+    company: "Tata Consultancy Services (TCS)"
+    client: "State Bank of India"
+    resume_type: "oracle_dba"
+    lead_in: ""
+    text: "Analyzed AWR, ASH and ADDM reports for database performance tuning."
+    full_bullet: "Analyzed AWR, ASH and ADDM reports for database performance tuning."
+    tags: ["awr", "ash", "addm", "performance-tuning", "database-tuning", "analysis"]
+    skills: ["AWR", "ASH", "ADDM", "Performance Tuning"]
+    domain: "Performance Tuning"
+    locked_numbers: []
+
+  - id: "dba_exp_12"
+    section: "professional_experience"
+    role: "System Engineer"
+    company: "Tata Consultancy Services (TCS)"
+    client: "State Bank of India"
+    resume_type: "oracle_dba"
+    lead_in: ""
+    text: "Resolved blocking sessions, long-running SQLs, listener/TNS issues, FRA and archive log problems."
+    full_bullet: "Resolved blocking sessions, long-running SQLs, listener/TNS issues, FRA and archive log problems."
+    tags: ["blocking-sessions", "sql-tuning", "listener", "tns", "fra", "archive-logs", "troubleshooting"]
+    skills: ["SQL Tuning", "Wait Event Analysis", "Oracle Net", "Listener", "TNS", "SCAN Listener"]
+    domain: "Troubleshooting & Performance"
+    locked_numbers: []
+
+  - id: "dba_exp_13"
+    section: "professional_experience"
+    role: "System Engineer"
+    company: "Tata Consultancy Services (TCS)"
+    client: "State Bank of India"
+    resume_type: "oracle_dba"
+    lead_in: ""
+    text: "Automated DBA health checks using Shell scripting and SQL scripts."
+    full_bullet: "Automated DBA health checks using Shell scripting and SQL scripts."
+    tags: ["automation", "shell-scripting", "sql", "health-checks", "dba-monitoring"]
+    skills: ["Shell Scripting", "SQL", "PL/SQL"]
+    domain: "Automation & Scripting"
+    locked_numbers: []
+
+  - id: "dba_exp_14"
+    section: "professional_experience"
+    role: "System Engineer"
+    company: "Tata Consultancy Services (TCS)"
+    client: "State Bank of India"
+    resume_type: "oracle_dba"
+    lead_in: ""
+    text: "Provided 24×7 production support while meeting SLA commitments."
+    full_bullet: "Provided 24×7 production support while meeting SLA commitments."
+    tags: ["production-support", "sla", "24x7", "on-call"]
+    skills: ["Production Support", "SLA commitments"]
+    domain: "Production Support"
+    locked_numbers:
+      - value: "24×7"
+        locked: true

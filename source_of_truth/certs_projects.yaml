@@ -1,0 +1,48 @@
+# Certifications & Projects - Source of Truth
+# Last updated: 2026-09-29 (AWS Solutions Architect approved for DBA tailoring)
+
+certifications:
+  - name: "Snowflake SnowPro Core Certification"
+    issuer: "Snowflake Inc."
+    issue_date: "Jul 2026"
+    credential_id: "S159845-260728-COF"
+    resume_type: ["data_engineer"]
+  - name: "AWS Certified Solutions Architect – Associate"
+    issuer: "Amazon Web Services (AWS)"
+    issue_date: "Jun 2026"
+    credential_id: "fd461ec57a104b2381260114d1a42bf1"
+    resume_type: ["data_engineer", "oracle_dba"]
+  - name: "Databricks Certified Data Engineer Associate"
+    issuer: "Databricks"
+    issue_date: "Sep 2026"
+    credential_id: "193994560"
+    resume_type: ["data_engineer"]
+
+projects:
+  - id: "de_proj_1"
+    name: "Automated REST API Batch Ingestion & Dimensional Warehouse Pipeline"
+    technologies:
+      - "Python"
+      - "PySpark"
+      - "Snowflake"
+      - "AWS S3"
+      - "SQL"
+      - "Dimensional Modeling (Star Schema)"
+    resume_type: ["data_engineer"]
+    bullets:
+      - id: "proj_bullet_1"
+        text: "Built a modular batch ingestion framework in Python fetching semi-structured JSON payloads from multi-endpoint REST APIs with automated pagination, token handling, and robust retry mechanisms."
+        skills: ["Python", "REST APIs", "JSON", "Batch Ingestion"]
+        locked_metrics: []
+      - id: "proj_bullet_2"
+        text: "Executed scalable distributed transformations using PySpark to clean, flatten nested JSON schemas, and enforce schema validation rules prior to staging on AWS S3."
+        skills: ["PySpark", "JSON", "AWS S3", "Distributed Transformations", "Schema Validation"]
+        locked_metrics: []
+      - id: "proj_bullet_3"
+        text: "Designed and deployed a Kimball Star Schema data warehouse in Snowflake, structuring normalized dimension tables (SCD Type 1) and transactional fact tables for business intelligence queries."
+        skills: ["Snowflake", "Dimensional Modeling", "Kimball Star Schema", "SCD Type 1", "Fact Tables", "Dimension Tables"]
+        locked_metrics: []
+      - id: "proj_bullet_4"
+        text: "Implemented automated data quality assertions verifying row counts, primary key uniqueness, and null constraints across analytical datasets."
+        skills: ["Data Quality", "Assertions", "Data Validation"]
+        locked_metrics: []

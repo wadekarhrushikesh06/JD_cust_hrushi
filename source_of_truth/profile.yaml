@@ -1,0 +1,39 @@
+# Profile - Source of Truth
+# Last updated: 2026-09-29 (Updated based on user confirmation)
+
+name: "HRUSHIKESH WADEKAR"
+contact:
+  phone: "+91 7249224098"
+  email: "wadekarhrushikesh3@gmail.com"
+  location: "Mumbai, Maharashtra, India"
+  linkedin: "linkedin.com/in/hrushikeshwadekar"
+  # Legacy fields preserved
+  location_de: "Mumbai, Maharashtra, India"
+  location_dba: "Mumbai, Maharashtra, India"
+  linkedin_de: "linkedin.com/in/hrushikeshwadekar"
+  linkedin_dba: "linkedin.com/in/hrushikeshwadekar"
+
+employers:
+  - company: "Tata Consultancy Services (TCS)"
+    official_designation: "Assistant System Engineer"
+    titles:
+      de: "Data Engineer"
+      dba: "Database Administrator"
+    client: "State Bank of India"
+    project_de: "Vendors Payment & Settlement System (VPS)"
+    project_dba: "State Bank of India Core Banking Project"
+    location: "Mumbai, India"
+    start_date: "Apr 2024"
+    end_date: "Present"
+
+education:
+  - degree: "Master of Computer Applications (MCA)"
+    institution: "G. H. Raisoni College of Engineering and Management (KBC NMU), Jalgaon"
+    dates: "2025 – 2027 (Pursuing)"
+    status: "Pursuing"
+    included_in: ["data_engineer", "oracle_dba"]
+  - degree: "Bachelor of Computer Applications (BCA)"
+    institution: "R. C. Patel Arts, Commerce and Science College (KBC NMU), Shirpur"
+    dates: "2020 – 2023"
+    cgpa: "9.62 / 10.0"
+    included_in: ["data_engineer", "oracle_dba"]
