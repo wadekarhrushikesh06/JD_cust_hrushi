@@ -1,2 +1,3 @@
 date,company,role,category,tags,resume_type,fit_pct,status,folder_path,job_link,notes
 2026-09-29,Accenture,I&F Decision Sci Practitioner Analyst,other,"SQL, Python, Analytics, APIs, Validation",data_engineer,20,prepared,jobs\other\2026-09-29_accenture_decision-sci-practitioner-analyst,—,Social listening delivery role; tailored for data extraction and SQL modeling
+2026-09-29,Accenture,Data Engineer (Databricks),technical-data-engineering,"Databricks, PySpark, PL/SQL, Airflow, AWS, ETL",data_engineer,75,prepared,jobs\technical-data-engineering\2026-09-29_accenture_data-engineer-databricks,—,Strong Databricks certified & Oracle PL/SQL match; GenAI listed as gap
