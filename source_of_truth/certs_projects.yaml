@@ -17,6 +17,14 @@ certifications:
     issue_date: "Sep 2026"
     credential_id: "193994560"
     resume_type: ["data_engineer"]
+  - name: "Microsoft Certified: Fabric Data Engineer Associate"
+    issuer: "Microsoft"
+    issue_date: "Sep 2026"
+    credential_id: "F2CEA18F28A701DC"
+    certification_number: "D9B42A-E44E2F"
+    earned_on: "September 29, 2026"
+    expires_on: "September 30, 2027"
+    resume_type: ["data_engineer"]
 
 projects:
   - id: "de_proj_1"

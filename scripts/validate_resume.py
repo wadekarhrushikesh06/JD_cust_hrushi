@@ -44,7 +44,8 @@ def load_source_of_truth():
         "flashback database", "tde", "transparent data encryption", "awr", "ash", "addm",
         "sql", "pl/sql", "python", "shell scripting", "bash", "linux", "rhel linux",
         "kimball", "star schema", "snowflake schema", "scd type 1", "scd type 2", "scd type 1 & 2",
-        "fact tables", "dimension tables", "rest apis", "rest api", "json", "opatch", "opatchauto"
+        "fact tables", "dimension tables", "rest apis", "rest api", "json", "opatch", "opatchauto",
+        "microsoft", "fabric", "microsoft fabric", "onelake", "delta lake", "lakehouse", "fabric lakehouse", "data factory"
     }
     allowed_skills.update(known_terms)
 
@@ -53,7 +54,8 @@ def load_source_of_truth():
         "2+", "4.45", "4.45m+", "4.45m", "12", "12-hour", "20+", "20", "99.8%", "99.8",
         "30%", "30", "25%", "25", "20%", "24x7", "24×7", "9.64", "9.62", "10.0", "10",
         "2024", "2025", "2026", "2027", "2020", "2023", "19", "19c", "23", "23ai", "1", "2",
-        "7249224098", "91", "+91", "159845", "260728", "461", "104", "193994560"
+        "7249224098", "91", "+91", "159845", "260728", "461", "104", "193994560",
+        "f2cea18f28a701dc", "d9b42a-e44e2f"
     }
 
     # Allowed employers

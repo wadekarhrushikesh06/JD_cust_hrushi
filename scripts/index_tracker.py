@@ -9,8 +9,9 @@ import csv
 import argparse
 from collections import defaultdict
 
-TRACKER_FILE = "tracker.csv"
-INDEX_FILE = os.path.join("jobs", "_INDEX.md")
+REPO_ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+TRACKER_FILE = os.path.join(REPO_ROOT, "tracker.csv")
+INDEX_FILE = os.path.join(REPO_ROOT, "jobs", "_INDEX.md")
 
 COLUMNS = [
     "date", "company", "role", "category", "tags",
@@ -33,7 +34,7 @@ def save_tracker(rows):
 
 def rebuild_index():
     rows = load_tracker()
-    os.makedirs("jobs", exist_ok=True)
+    os.makedirs(os.path.join(REPO_ROOT, "jobs"), exist_ok=True)
     
     # 1. Group by category
     by_category = defaultdict(list)

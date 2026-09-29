@@ -10,7 +10,9 @@ import shutil
 import subprocess
 import yaml
 
-sys.path.insert(0, os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
+repo_root = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+os.chdir(repo_root)
+sys.path.insert(0, repo_root)
 
 from scripts.render_resume import render
 from scripts.validate_resume import validate_resume
@@ -154,7 +156,18 @@ def test_full_pipeline():
     # 7. Clean up dummy output
     print("  [x] Cleaning up dummy test artifacts...")
     delete_entry(dummy_company, dummy_role)
-    shutil.rmtree(os.path.join("jobs", dummy_cat))
+    import time
+    import gc
+    gc.collect()
+    time.sleep(1)
+    for _ in range(5):
+        try:
+            if os.path.exists(job_dir):
+                shutil.rmtree(job_dir)
+            break
+        except PermissionError:
+            time.sleep(1)
+            gc.collect()
     print(">>> Test Pipeline Complete! All components verified.")
 
 if __name__ == "__main__":

@@ -1,0 +1,65 @@
+resume_type: "data_engineer"
+
+summary: "Databricks and Microsoft Fabric Certified Data Engineer and AWS Solutions Architect with 2+ years of production experience at Tata Consultancy Services (Client: State Bank of India) building high-throughput batch ETL/ELT pipelines, distributed data transformations, and analytical datamarts in the BFSI / Banking domain. Proven expertise processing 4.45M+ daily transaction records across 12-hour settlement cycles using PySpark, Spark SQL, Apache Airflow, and Oracle DB. Skilled in diagnosing Spark Out-Of-Memory (OOM) bottlenecks, optimizing shuffle partitions and broadcast joins, and implementing automated reconciliation frameworks with 99.8% SLA reliability."
+
+summary_runs:
+  - text: "Databricks and Microsoft Fabric Certified Data Engineer"
+    bold: true
+  - text: " and "
+    bold: false
+  - text: "AWS Solutions Architect"
+    bold: true
+  - text: " with 2+ years of production experience at "
+    bold: false
+  - text: "Tata Consultancy Services (Client: State Bank of India)"
+    bold: true
+  - text: " building high-throughput batch ETL/ELT pipelines, distributed data transformations, and analytical datamarts in the "
+    bold: false
+  - text: "BFSI / Banking"
+    bold: true
+  - text: " domain. Proven expertise processing "
+    bold: false
+  - text: "4.45M+ daily transaction records"
+    bold: true
+  - text: " across 12-hour settlement cycles using "
+    bold: false
+  - text: "PySpark, Spark SQL, Apache Airflow, and Oracle DB"
+    bold: true
+  - text: ". Skilled in diagnosing Spark Out-Of-Memory (OOM) bottlenecks, optimizing shuffle partitions and broadcast joins, and implementing automated reconciliation frameworks with 99.8% SLA reliability."
+    bold: false
+
+skills_lines:
+  - - "Big Data & Processing"
+    - "Apache Spark (PySpark, Spark SQL), Broadcast Joins, Partitioning, Shuffle Optimization, OOM Debugging"
+  - - "Cloud & Warehouses"
+    - "Databricks, Microsoft Fabric (OneLake), AWS (AWS S3, Cloud Fundamentals), Snowflake (Virtual Warehouses, SnowSQL)"
+  - - "Workflow Orchestration"
+    - "Apache Airflow (DAG Design, Scheduling, Task Dependencies, Failure Alerting, SLA Monitoring)"
+  - - "Languages & Scripting"
+    - "Python (ETL Scripting, Data Structures), SQL (Advanced Transformations, Complex Queries), Bash / Shell Scripting"
+  - - "Databases & Querying"
+    - "Oracle Database (PL/SQL, Joins, CTEs, Window Functions, Performance Tuning)"
+  - - "Data Quality & Governance"
+    - "Pre/Post-load Financial Reconciliation, Data Validation Checks, Schema Consistency, Audit Compliance"
+  - - "Data Modeling & Design"
+    - "Dimensional Modeling (Kimball Star Schema, Snowflake Schema), Fact & Dimension Tables, SCD Type 1 & 2"
+  - - "Tools & Operating Systems"
+    - "Linux, Git"
+
+experience_bullets:
+  - lead: "Spark Performance Tuning & RCA"
+    text: "Diagnosed and eliminated recurring PySpark Out-of-Memory (OOM) exceptions and data skew by implementing broadcast joins, optimal repartitioning, and shuffle partition tuning, cutting pipeline downtime by 30%."
+  - lead: "High-Throughput Batch Ingestion"
+    text: "Architected and maintained end-to-end batch ETL pipelines ingesting 4.45M+ transaction hits across 12-hour daily settlement cycles from core banking Oracle staging environments into analytics datamarts."
+  - lead: "Airflow Orchestration & SLA Adherence"
+    text: "Scheduled and monitored 20+ production Apache Airflow DAGs, implementing robust task dependencies and automated alerting mechanisms that sustained a 99.8% workflow success rate."
+  - lead: "Database & Query Optimization"
+    text: "Refactored complex SQL transformations, indexing, and batch loading procedures in Oracle DB, slashing batch execution runtimes by 20% and improving reporting throughput."
+  - lead: "Financial Ledger Reconciliation"
+    text: "Engineered automated pre-load and post-load reconciliation scripts in SQL and PySpark to cross-verify debit/credit ledger balances and transaction counts, driving a 25% improvement in data accuracy for audit compliance."
+
+project_bullets:
+  - text: "Built a modular batch ingestion framework in Python fetching semi-structured JSON payloads from multi-endpoint REST APIs with automated pagination, token handling, and robust retry mechanisms."
+  - text: "Executed scalable distributed transformations using PySpark to clean, flatten nested JSON schemas, and enforce schema validation rules prior to staging on AWS S3."
+  - text: "Designed and deployed a Kimball Star Schema data warehouse in Snowflake, structuring normalized dimension tables (SCD Type 1) and transactional fact tables for business intelligence queries."
+  - text: "Implemented automated data quality assertions verifying row counts, primary key uniqueness, and null constraints across analytical datasets."

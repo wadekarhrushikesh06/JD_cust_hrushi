@@ -91,6 +91,26 @@ skills:
     category: "Cloud & Warehouses"
     evidence: ["de_cert_3", "de_skills_section"]
     resumes: ["data_engineer"]
+  - name: "Microsoft Fabric"
+    category: "Cloud & Warehouses"
+    evidence: ["de_cert_4"]
+    resumes: ["data_engineer"]
+  - name: "OneLake"
+    category: "Cloud & Warehouses"
+    evidence: ["de_cert_4"]
+    resumes: ["data_engineer"]
+  - name: "Delta Lake"
+    category: "Cloud & Warehouses"
+    evidence: ["de_cert_3", "de_cert_4"]
+    resumes: ["data_engineer"]
+  - name: "Lakehouse Architecture"
+    category: "Cloud & Warehouses"
+    evidence: ["de_cert_4"]
+    resumes: ["data_engineer"]
+  - name: "Data Factory in Fabric"
+    category: "Cloud & Warehouses"
+    evidence: ["de_cert_4"]
+    resumes: ["data_engineer"]
 
   # Databases & Querying / Administration
   - name: "Oracle Database"
